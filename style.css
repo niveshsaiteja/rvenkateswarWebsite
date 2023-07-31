@@ -104,6 +104,13 @@ body {
     margin-left: 5px;
     margin-right: 5px;
 }
+.bx3{
+    padding: 23px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 152, 152);
+    color: rgb(255, 1, 1);
+}
 #sidebar .side-menu {
 	width: 100%;
 	margin-top: 48px;
@@ -362,7 +369,7 @@ body {
 #content main .head-title .btn-download {
 	height: 36px;
 	padding: 0 16px;
-	border-radius: 36px;
+	border-radius: 5px;
 	background: #ff0000;
 	color: var(--light);
 	display: flex;
