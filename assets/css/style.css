@@ -15,8 +15,8 @@
   /** Text colors */
   --text-white: hsla(0, 0%, 100%, 1);
   --text-alice-blue: rgb(255, 229, 229);
-  --text-columbia-blue: rgb(242, 186, 186);
-  --text-wild-blue-yonder: rgb(200, 146, 146);
+  --text-columbia-blue: rgb(221, 140, 140);
+  --text-wild-blue-yonder: rgb(195, 125, 125);
   --text-carolina-blue: rgb(236, 14, 14);
   --text-shadow-blue: rgb(176, 125, 125);
   --text-slate-gray: rgb(143, 102, 102);

@@ -18,10 +18,10 @@ li {
 	--poppins: 'Poppins', sans-serif;
 	--lato: 'Lato', sans-serif;
 
-	--light: #F9F9F9;
+	--light: #ffffff;
 	--blue: #3C91E6;
 	--light-blue: #CFE8FF;
-	--grey: #eee;
+	--grey: #ffebeb;
 	--dark-grey: #AAAAAA;
 	--dark: #342E37;
 	--red: #DB504A;
@@ -38,7 +38,7 @@ html {
 body.dark {
 	--light: #010232;
 	--grey: #060714;
-	--dark: #FBFBFB;
+	--dark: #ffffff;
 }
 
 body {
