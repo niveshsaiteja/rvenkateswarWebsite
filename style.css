@@ -24,7 +24,7 @@ li {
 	--grey: #fff5f5;
 	--dark-grey: #AAAAAA;
 	--dark: #342E37;
-	--red: #DB504A;
+	--red: #eb3731;
 	--yellow: #FFCE26;
 	--light-yellow: #FFF2C6;
 	--orange: #FD7238;
@@ -82,7 +82,7 @@ body {
 	height: 56px;
 	display: flex;
 	align-items: center;
-	color: #ff0000;
+	color: #ff4444;
 	position: sticky;
 	top: 0;
 	left: 0;
@@ -109,7 +109,7 @@ body {
     font-size: 30px;
     border-radius: 10px;
     background-color: rgb(255, 152, 152);
-    color: rgb(255, 1, 1);
+    color: rgb(255, 75, 75);
 }
 #sidebar .side-menu {
 	width: 100%;
@@ -265,7 +265,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #ff0000;
+	background: #ff3b3b;
 	color: var(--light);
 	font-size: 18px;
 	border: none;
@@ -316,7 +316,7 @@ body {
 	left: 2px;
 	bottom: 2px;
 	width: calc(25px - 4px);
-	background:#ff0000;
+	background:#ff3636;
 	border-radius: 50%;
 	transition: all .3s ease;
 }
@@ -370,7 +370,7 @@ body {
 	height: 36px;
 	padding: 0 16px;
 	border-radius: 5px;
-	background: #ff0000;
+	background: #ff5050;
 	color: var(--light);
 	display: flex;
 	justify-content: center;
