@@ -22,8 +22,8 @@
   --text-slate-gray: rgb(143, 102, 102);
 
   /** Gradient colors */
-  --gradient-1: linear-gradient(90deg, #ea0e0e, #d10b0bb4 51%);
-  --gradient-2: linear-gradient(90deg, #ea0e0e, #d1b00b 51%, #ea800e);
+  --gradient-1: linear-gradient(90deg, #ea0e0e, #c82929b4 51%);
+  --gradient-2: linear-gradient(90deg, #ea0e0e, #ff6b6b 51%, #ff1717);
   --gradient-3: linear-gradient(0deg, #000d1a, transparent);
 
   /** Border colors */
@@ -431,7 +431,7 @@ body.nav-active { overflow: hidden; }
 
 .hero-bg { display: none; }
 
-.hero { padding-block-start: calc(var(--section-padding) + 160px); }
+.hero { padding-block-start: calc(var(--section-padding) + 100px); }
 
 .hero .container {
   display: grid;
