@@ -74,3 +74,81 @@ switchMode.addEventListener('change', function () {
 		document.body.classList.remove('dark');
 	}
 })
+
+let eventsSideBar = document.getElementById("eventSideBar");
+let companiesSideBar = document.getElementById("companiesSideBar");
+let upcomingSideBar = document.getElementById("upcomingSideBar");
+let messageSideBar = document.getElementById("messageSideBar");
+let teamSideBar = document.getElementById("teamSideBar");
+
+let events = document.getElementById("events");
+let companies = document.getElementById("companies");
+let upcoming = document.getElementById("upcoming");
+let message = document.getElementById("message");
+let team = document.getElementById("team");
+
+
+eventsSideBar.onclick = function(){
+    events.classList.add("d-block");
+	events.classList.remove("d-none");
+	companies.classList.add("d-none");
+	companies.classList.remove("d-block");
+	upcoming.classList.add("d-none");
+	upcoming.classList.remove("d-block");
+	message.classList.add("d-none");
+	message.classList.remove("d-block");
+	team.classList.add("d-none");
+	team.classList.remove("d-block");
+};
+
+companiesSideBar.onclick = function(){
+    companies.classList.add("d-block");
+	companies.classList.remove("d-none");
+	events.classList.add("d-none");
+	events.classList.remove("d-block");
+	upcoming.classList.add("d-none");
+	upcoming.classList.remove("d-block");
+	message.classList.add("d-none");
+	message.classList.remove("d-block");
+	team.classList.add("d-none");
+	team.classList.remove("d-block");
+};
+
+upcomingSideBar.onclick = function(){
+    upcoming.classList.add("d-block");
+	upcoming.classList.remove("d-none");
+	events.classList.add("d-none");
+	events.classList.remove("d-block");
+	companies.classList.add("d-none");
+	companies.classList.remove("d-block");
+	message.classList.add("d-none");
+	message.classList.remove("d-block");
+	team.classList.add("d-none");
+	team.classList.remove("d-block");
+};
+
+messageSideBar.onclick = function(){
+    message.classList.add("d-block");
+	message.classList.remove("d-none");
+	events.classList.add("d-none");
+	events.classList.remove("d-block");
+	upcoming.classList.add("d-none");
+	upcoming.classList.remove("d-block");
+	companies.classList.add("d-none");
+	companies.classList.remove("d-block");
+	team.classList.add("d-none");
+	team.classList.remove("d-block");
+};
+
+teamSideBar.onclick = function(){
+    team.classList.add("d-block");
+	team.classList.remove("d-none");
+	events.classList.add("d-none");
+	events.classList.remove("d-block");
+	upcoming.classList.add("d-none");
+	upcoming.classList.remove("d-block");
+	message.classList.add("d-none");
+	message.classList.remove("d-block");
+	companies.classList.add("d-none");
+	companies.classList.remove("d-block");
+};
