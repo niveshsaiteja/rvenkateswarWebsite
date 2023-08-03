@@ -14,7 +14,7 @@
 
   /** Text colors */
   --text-white: hsla(0, 0%, 100%, 1);
-  --text-alice-blue: rgb(255, 229, 229);
+  --text-alice-blue: rgb(255, 197, 197);
   --text-columbia-blue: rgb(221, 140, 140);
   --text-wild-blue-yonder: rgb(195, 125, 125);
   --text-carolina-blue: rgb(236, 14, 14);
@@ -1328,4 +1328,12 @@ body.nav-active { overflow: hidden; }
     padding-inline: 120px;
   }
 
+}
+
+@media   ( max-width:550px ){
+
+  .insta-list {
+    display: flex;
+    flex-direction: column;
+  }
 }
