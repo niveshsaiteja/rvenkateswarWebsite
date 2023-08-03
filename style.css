@@ -332,7 +332,7 @@ body {
 /* MAIN */
 #content main {
 	width: 100%;
-	padding: 36px 24px;
+	padding: 26px 10px;
 	font-family: var(--poppins);
 	max-height: calc(100vh - 56px);
 	overflow-y: auto;
@@ -543,6 +543,76 @@ body {
 
 
 
+/* Event cards */
+
+.eve-card{
+	display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
+    border-style: solid;
+	border-width: 1px;
+	border-color: #ff3b3b;
+}
+
+.eve-card:hover{
+	box-shadow: 0 4px 10px 0 rgb(255, 113, 113);
+	transition: 0.3s;
+}
+.event-img-div{
+	width: 30vw;
+    height: 40vh;
+    padding: 5px;
+}
+.eve-img{
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.eve-content{
+	width: 70vw;
+    height: 40vh;
+    overflow-y: scroll;
+    padding-inline: 15px;
+    display: flex;
+    flex-direction: column;
+	
+}
+.eve-heading{
+	font-family:(var(--poppins));
+	font-weight: bold;
+	font-size: 20px;
+	padding: 4px;
+}
+.eve-heading:hover{
+	color: red;
+	transition: 0.3s;
+}
+.eve-span{
+	display: block;
+    padding: 4px;
+    color: #ff5050;
+    font-size: 14px;
+}
+.eve-description{
+	font-family: (var(--poppins));
+    font-size: 13px;
+    font-weight: 200;
+}
+.eve-icon{
+	padding-right: 5px ;
+}
+
+
+
+
+/* Event cards */
+
+
+
 
 
 
@@ -562,6 +632,28 @@ body {
 	#content nav .nav-link {
 		display: none;
 	}
+
+	.eve-card{
+		
+		flex-direction: column;
+		padding: 1px;
+	}
+	.event-img-div {
+		width: 100%;
+		height: 100%;
+		padding: 0px;
+	}
+	.eve-img {
+		border-radius: 0px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	.eve-content {
+		width: 100%;
+		height: 40vh;
+	}
+
 }
 
 .d-none{
