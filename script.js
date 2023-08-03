@@ -159,43 +159,48 @@ teamSideBar.onclick = function(){
 
 let data = [
     {
+		"id":1,
       "img":"assets/images/featured-1.png",
       "heading":"The meet among the students for a placement",
       "date":"02-05-2023",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit!  Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde."
     },
     {
+		"id":2,
       "img":"assets/images/featured-1.png",
       "heading":"The meet among the students for a placement",
       "date":"02-05-2023",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit!  Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde."
     },
     {
+		"id":3,
       "img":"assets/images/featured-1.png",
       "heading":"The meet among the students for a placement",
       "date":"02-05-2023",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit!  Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde."
     },
     {
+		"id":4,
       "img":"assets/images/featured-1.png",
       "heading":"The meet among the students for a placement",
       "date":"02-05-2023",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit!  Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde."
     },
     {
+		"id":6,
       "img":"assets/images/featured-1.png",
       "heading":"The meet among the students for a placement",
       "date":"02-05-2023",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit!  Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde."
     },
     {
+		"id":5,
       "img":"assets/images/featured-1.png",
       "heading":"The meet among the students for a placement",
       "date":"02-05-2023",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit! Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, in? In quia nulla fuga rerum natus similique praesentium deserunt sit!  Officia maiores ullam cupiditate laborum vel. Adipisci odit ab unde."
     }
   ];
-
 
 
 for (let responce of data){
