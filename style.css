@@ -545,6 +545,13 @@ body {
 
 /* Event cards */
 
+.white{
+	color: white;
+}
+.black{
+	color: black;
+}
+
 .eve-card{
 	display: flex;
     flex-direction: row;
